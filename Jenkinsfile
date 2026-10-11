@@ -57,7 +57,7 @@ pipeline {
         //         } 
         //     }
         // }
-        /* stage('SonarQube Analysis') {
+         stage('SonarQube Analysis') {
             steps {
                 // 'My SonarQube Server' must match the name configured in Jenkins System Settings
                 withSonarQubeEnv('sonar-server') {
@@ -76,7 +76,7 @@ pipeline {
                     }
                 }
             }
-        } */
+        } 
         // stage('Check Dependabot Alerts') {
         //     steps {
         //         withCredentials([string(credentialsId: 'github-token', variable: 'GH_TOKEN')]) {
